@@ -6,6 +6,8 @@
   1. tkinter 0.2
   2. string
   3. random
+  4. json
+  5. os
 
 I would appreciate and welcome your addressed issues and try my best to resolve them.
    
