@@ -41,9 +41,9 @@ def Search_data():
 
 
 def saveTo():
-    mail = MailInput.get()
+    mail = MailInput.get().lower()
     Password = PasswordInput.get()
-    website = websiteInput.get()
+    website = websiteInput.get().capitalize()
     
     if len(mail)!=0 and len(Password)!=0 and  len(website)!=0:
         isOk = messagebox.askokcancel(title=f"Managing Password for {website.capitalize()}",message=f"Confirm Your Data\nMail: {mail}\nWebsite: {website}\nPassword{Password}")
